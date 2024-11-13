@@ -1,3 +1,35 @@
+
+class declaraVariável {
+    int inteira;
+    String string;
+    float flutuante;
+    double dupla;
+    boolean bool;
+    
+    void exibeValorInteiro() {
+        System.out.println("o valor de int é: " + inteira);
+    }
+    
+    void exibeValorString() {
+        System.out.println("o valor de String é: " + string);
+
+    }
+
+    void exibeValorFlutuante() {
+        System.out.println("o valor de float é: " + flutuante);
+
+    }
+
+    void exibeValorDuplo() {
+        System.out.println("o valor de dupla é: " + dupla);
+        
+    }
+    
+    void exibeValorBool() {
+        System.out.println("o valor de boolean é: " + bool);
+        
+    }
+}
 class exibeTodos {
     boolean istrue;
 
@@ -15,38 +47,6 @@ class exibeTodos {
         var.exibeValorFlutuante();;
         var.exibeValorDuplo();
         var.exibeValorBool();
-    }
-}
-
-class declaraVariável {
-    int inteira;
-    String string;
-    float flutuante;
-    double dupla;
-    boolean bool;
-
-    void exibeValorInteiro() {
-        System.out.println("o valor de int é: " + inteira);
-    }
-    
-    void exibeValorString() {
-        System.out.println("o valor de String é: " + string);
-
-    }
-
-    void exibeValorFlutuante() {
-        System.out.println("o valor de float é: " + flutuante);
-
-    }
-
-    void exibeValorDuplo() {
-        System.out.println("o valor de dupla é: " + dupla);
-
-    }
-
-    void exibeValorBool() {
-        System.out.println("o valor de boolean é: " + bool);
-
     }
 }
 
