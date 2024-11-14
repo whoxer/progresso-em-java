@@ -20,7 +20,7 @@ class DogTestDrive {
 
 		    billy.raça = "misto de Peagle e vira-lata";
 		    billy.nome = "Billy";
-        billy.tamanho = 35;
+        	billy.tamanho = 35;
 
 		    maze.raça = "vira-lata";
 		    maze.nome = "Maze";
